@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kedai Kopi</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Kedai<span>Lawrence</span>.</a>
+      <div class="navbar-nav">
+        <a href="#Home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#kontak">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <!-- Home Page -->
+
+    <section class="hero" id="Home">
+      <div class="mask-container">
+        <main class="content">
+          <h1>Mari Nikmati Secangkir <span>Kopi</span></h1>
+          <p>Rasakan Secangkir Kopi dengan Kopi Khas Indonesia</p>
+          <!-- <a href="#" class="cta">Beli Sekarang</a> -->
+        </main>
+      </div>
+    </section>
+
+    <!-- About Section -->
+
+    <section id="about" class="about">
+      <h2>Tentang <span>Kami</span></h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/kopi2.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Kenapa Memilih Kopi Kami ?</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus dolorum pariatur error, distinctio aliquam.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur incidunt quae id rem laboriosam molestiae ad sunt harum dicta veniam?</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+
+    <section id="menu" class="menu">
+      <h2>Menu <span>Kami</span></h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eius esse necessitatibus, dolorum reiciendis.</p>
+
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/kopi3.jpg" alt="MenuKopi" class="menu-image" />
+          <h3 class="title">- Espresso -</h3>
+          <p class="harga">IDR 15.000</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/kopi3.jpg" alt="MenuKopi" class="menu-image" />
+          <h3 class="title">- Espresso -</h3>
+          <p class="harga">IDR 25.000</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/kopi3.jpg" alt="MenuKopi" class="menu-image" />
+          <h3 class="title">- Espresso -</h3>
+          <p class="harga">IDR 35.000</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/kopi3.jpg" alt="MenuKopi" class="menu-image" />
+          <h3 class="title">- Espresso -</h3>
+          <p class="harga">IDR 45.000</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontak Section -->
+
+    <section class="kontak" id="kontak">
+      <h2>Hubungi<span>Kami</span></h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque assumenda maxime officia cum dolor. Id!</p>
+
+      <div class="row">
+        <iframe
+          class="Maps"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63465.83290955355!2d106.83646465!3d-6.182313000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f436b8c94b07%3A0x6ea6d5398b7c82f6!2sJakarta%20Pusat%2C%20Kota%20Jakarta%20Pusat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1687008174659!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Nama Anda" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="Email Anda" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="Nomor Telp Anda" />
+          </div>
+          <button class="btn" type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <script>
+      feather.replace();
+    </script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
